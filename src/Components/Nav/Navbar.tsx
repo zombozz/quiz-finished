@@ -7,7 +7,7 @@ const navbar = () => {
     <div className='navbar'>
         <Link to="/"><img src="./images/download.svg"></img></Link>
         <div className='name-email'>
-        <h1>Name: {localStorage.getItem("name")}</h1>
+        <h1 className='name-nav'>Name: {localStorage.getItem("name")}</h1>
         <h1>Email: {localStorage.getItem("email")}</h1>
         </div>
     </div>

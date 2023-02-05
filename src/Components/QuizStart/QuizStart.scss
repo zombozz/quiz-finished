@@ -35,6 +35,31 @@ body {
 .note {
     font-size: 16px;
 }
+
+@media (max-width:650px) {
+  .quiz-start-container {
+    position: relative;
+    top: 20px;
+    h3{
+      font-size: 30px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+    button {
+      font-size: 20px;
+      width: 100px;
+    }
+}
+  .description {
+    width: 360px;
+    font-size: 22px;
+}
+  .note {
+    width: 80%;
+    font-size: 14px;
+}
+}
 .login-as-guest-btn {
     transition: background-color 0.3s, box-shadow 0.3s;
     padding: 10px 12px 10px 12px;
@@ -68,3 +93,4 @@ body {
     box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
     cursor: not-allowed;
   }
+

@@ -35,4 +35,11 @@ body {
   height: 50px;
   border: 1px solid black;
   margin-top: 15px;
+}
+
+@media (max-width: 500px) {
+  .progress-buttons button {
+    margin-top: 10px;
+    height: 40px;
+  }
 }/*# sourceMappingURL=Progress.css.map */

@@ -73,4 +73,31 @@ body {
 .next-button:hover {
   background-color: black;
   color: #2146AE;
+}
+
+@media (max-width: 800px) {
+  .questions-container {
+    width: 50vw;
+    position: relative;
+  }
+  .questions-container .qnumber {
+    font-size: 30px;
+    color: #2146AE;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .questions-container .question {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .answers-container button {
+    font-size: 20px;
+  }
+  .next-button {
+    position: relative;
+    top: 20px;
+    width: 100px;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=Questions.css.map */
