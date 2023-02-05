@@ -1,0 +1,55 @@
+*, *::after, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2146AE;
+  margin: 0;
+  padding: 0;
+}
+
+.results-container {
+  top: 20vh;
+  width: 100vw;
+  position: absolute;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+}
+
+.title {
+  left: 10vw;
+  position: absolute;
+}
+.title h1 {
+  font-size: 60px;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+.title h2 {
+  font-size: 40px;
+}
+.title h3 {
+  font-size: 30px;
+}
+
+.results {
+  height: 60vh;
+  align-items: center;
+}
+
+.retry-button {
+  position: absolute;
+  left: 10vw;
+  top: 30vh;
+  padding: 10px 60px;
+  background: white;
+  font-size: 30px;
+}
+
+.retry-button:hover {
+  background-color: #2146AE;
+  color: white;
+}/*# sourceMappingURL=Results.css.map */

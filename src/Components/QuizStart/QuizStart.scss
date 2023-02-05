@@ -1,0 +1,70 @@
+*, *::after, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2146AE;
+    margin: 0;
+    padding: 0;
+}
+
+.quiz-start-container {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    h3{
+      font-size: 40px;
+    }
+    button {
+      font-size: 24px;
+      width: 100px;
+    }
+}
+
+.description {
+    width: 600px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.note {
+    font-size: 16px;
+}
+.login-as-guest-btn {
+    transition: background-color 0.3s, box-shadow 0.3s;
+    padding: 10px 12px 10px 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 12px 11px;
+}
+
+.login-as-guest-btn:hover {
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  .login-as-guest-btn:active {
+    background-color: #eeeeee;
+  }
+  .login-as-guest-btn:focus {
+    outline: none;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.25), 0 0 0 3px #c8dafc;
+  }
+  .login-as-guest-btn:disabled {
+    filter: grayscale(100%);
+    background-color: #ebebeb;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+    cursor: not-allowed;
+  }
